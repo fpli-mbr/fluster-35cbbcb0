@@ -25,7 +25,7 @@ class Codec(Enum):
     Dummy = 'Dummy'
     H264 = 'H.264'
     H265 = 'H.265'
-
+    H266 = 'H.266'
 
 class PixelFormat(Enum):
     '''Pixel format'''
