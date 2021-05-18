@@ -1,0 +1,2263 @@
+{
+    "name": "JVET-VVC_draft6",
+    "codec": "H.266",
+    "description": "JVET VVC draft6",
+    "test_vectors": [
+        {
+            "name": "10b400_A_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b400_A_Bytedance_2.zip",
+            "source_checksum": "36b6db0ef4992c4f1c00d5f43e7fb405",
+            "input_file": "10b400_A_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b400_B_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b400_B_Bytedance_2.zip",
+            "source_checksum": "fe845074ca1771ce480956d434bb049c",
+            "input_file": "10b400_B_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_A_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_A_Sony_4.zip",
+            "source_checksum": "743f6e4fb9a7c58964122baa1dcc8193",
+            "input_file": "10b422_A_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_B_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_B_Sony_4.zip",
+            "source_checksum": "03cacbd2d2afc04808940575c2720758",
+            "input_file": "10b422_B_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_C_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_C_Sony_4.zip",
+            "source_checksum": "5713f5b64c58a1b2c41e145ddaaf5787",
+            "input_file": "10b422_C_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_D_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_D_Sony_4.zip",
+            "source_checksum": "2a9b822aab285dc821eff0982c9cee71",
+            "input_file": "10b422_D_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_E_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_E_Sony_4.zip",
+            "source_checksum": "328605f71000ce0df12630dc37c5c8fc",
+            "input_file": "10b422_E_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_F_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_F_Sony_4.zip",
+            "source_checksum": "fdf918d6dcc1b9e955420c520a8007fc",
+            "input_file": "10b422_F_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_G_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_G_Sony_4.zip",
+            "source_checksum": "efb2cafdca2ac62a818c45ad2a80a160",
+            "input_file": "10b422_G_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_H_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_H_Sony_4.zip",
+            "source_checksum": "6c7dfe197c7c745fd492668c5276f6b7",
+            "input_file": "10b422_H_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_I_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_I_Sony_4.zip",
+            "source_checksum": "4e9066a9861d9d4e86037294478f6d8b",
+            "input_file": "10b422_I_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_J_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_J_Sony_4.zip",
+            "source_checksum": "73f72770e36a50ca0ffb31205de95d1e",
+            "input_file": "10b422_J_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_K_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_K_Sony_4.zip",
+            "source_checksum": "a9762f8c5a65e002b7fa02dd4b5638d0",
+            "input_file": "10b422_K_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b422_L_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b422_L_Sony_4.zip",
+            "source_checksum": "ecaa38dd80610be0c779a7663f0892c2",
+            "input_file": "10b422_L_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b444_A_Kwai_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b444_A_Kwai_3.zip",
+            "source_checksum": "7ded2342d1ccf642f502ec4f2ef34045",
+            "input_file": "10b444_A_Kwai_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "10b444_B_Kwai_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/10b444_B_Kwai_3.zip",
+            "source_checksum": "1e5997a8eec1dde218076739947f856e",
+            "input_file": "10b444_B_Kwai_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b400_A_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b400_A_Bytedance_2.zip",
+            "source_checksum": "cc78af98aedadad36fa2314b50a06c0e",
+            "input_file": "8b400_A_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b400_B_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b400_B_Bytedance_2.zip",
+            "source_checksum": "11431e0d1e44997a6e72e32a60301cde",
+            "input_file": "8b400_B_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b420_A_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b420_A_Bytedance_2.zip",
+            "source_checksum": "7b1c2be9ec671650e27e12a76debc479",
+            "input_file": "8b420_A_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b420_B_Bytedance_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b420_B_Bytedance_2.zip",
+            "source_checksum": "079c12b263b51ec438ef11226ef1253a",
+            "input_file": "8b420_B_Bytedance_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_A_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_A_Sony_4.zip",
+            "source_checksum": "74dae5cdb6e517b0a2f0013a0bf6d405",
+            "input_file": "8b422_A_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_B_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_B_Sony_4.zip",
+            "source_checksum": "bee7332961b227ae5ff12f10c7cef78e",
+            "input_file": "8b422_B_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_C_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_C_Sony_4.zip",
+            "source_checksum": "96c2f6b3294998255a15765c11d3ea67",
+            "input_file": "8b422_C_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_D_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_D_Sony_4.zip",
+            "source_checksum": "fab5de9ae6cb167f5d4ea295639d4865",
+            "input_file": "8b422_D_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_E_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_E_Sony_4.zip",
+            "source_checksum": "7f1d5082adc0fcbf63dc97e4a26c9dc2",
+            "input_file": "8b422_E_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_F_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_F_Sony_4.zip",
+            "source_checksum": "0234226b96753983c12dc0d27d29bde9",
+            "input_file": "8b422_F_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_G_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_G_Sony_4.zip",
+            "source_checksum": "2c65e721d95eb2fcede38998f2a7cc8c",
+            "input_file": "8b422_G_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_H_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_H_Sony_4.zip",
+            "source_checksum": "7a433e7cb5a3ca5ffbc59430d108dd90",
+            "input_file": "8b422_H_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_I_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_I_Sony_4.zip",
+            "source_checksum": "ac2b779443f9b7a30772e6606027c4bc",
+            "input_file": "8b422_I_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_J_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_J_Sony_4.zip",
+            "source_checksum": "2fb2f5b67847eefdbe29609ed74ee5da",
+            "input_file": "8b422_J_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_K_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_K_Sony_4.zip",
+            "source_checksum": "092db552d66bb14db9189e096f57f012",
+            "input_file": "8b422_K_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b422_L_Sony_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b422_L_Sony_4.zip",
+            "source_checksum": "c8694d127161080da961e961595995e8",
+            "input_file": "8b422_L_Sony_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b444_A_Kwai_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b444_A_Kwai_2.zip",
+            "source_checksum": "42cf3592bbc7fc2b7ea16f397220c0ea",
+            "input_file": "8b444_A_Kwai_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "8b444_B_Kwai_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/8b444_B_Kwai_2.zip",
+            "source_checksum": "22d22a3c7c4d5e68963b2a4f0247e41b",
+            "input_file": "8b444_B_Kwai_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ACT_A_Kwai_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ACT_A_Kwai_3.zip",
+            "source_checksum": "76482612ce25776c5fb8f7aebea7b5b8",
+            "input_file": "ACT_A_Kwai_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ACT_B_Kwai_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ACT_B_Kwai_3.zip",
+            "source_checksum": "62238d991341e3e671db799bdda87b98",
+            "input_file": "ACT_B_Kwai_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ACTPIC_A_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ACTPIC_A_Huawei_3.zip",
+            "source_checksum": "1ad1276719d67fc57c6904ac2295b3d5",
+            "input_file": "ACTPIC_A_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ACTPIC_B_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ACTPIC_B_Huawei_3.zip",
+            "source_checksum": "56acdabe762da595a77f6a97cd0ac681",
+            "input_file": "ACTPIC_B_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ACTPIC_C_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ACTPIC_C_Huawei_3.zip",
+            "source_checksum": "cb94a491cba6370b0ac03b4d50bd8775",
+            "input_file": "ACTPIC_C_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "AFF_A_HUAWEI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/AFF_A_HUAWEI_2.zip",
+            "source_checksum": "55b1afb4b910c064527fc882614211ee",
+            "input_file": "AFF_A_HUAWEI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "AFF_B_HUAWEI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/AFF_B_HUAWEI_2.zip",
+            "source_checksum": "5329e089c6e872240dd40ee55ab01a55",
+            "input_file": "AFF_B_HUAWEI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ALF_A_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ALF_A_Huawei_3.zip",
+            "source_checksum": "8d83451f65e1f2f58801aacd8ae9deec",
+            "input_file": "ALF_A_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ALF_B_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ALF_B_Huawei_3.zip",
+            "source_checksum": "bcb72d4318fe7f249c5335aeeb268971",
+            "input_file": "ALF_B_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ALF_C_KDDI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ALF_C_KDDI_3.zip",
+            "source_checksum": "9ef3120283e87d770576960ba5c5c5de",
+            "input_file": "ALF_C_KDDI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ALF_D_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ALF_D_Qualcomm_2.zip",
+            "source_checksum": "60b3f63674cfef04b7e4d1c8f76da7ae",
+            "input_file": "ALF_D_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "AMVR_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/AMVR_A_HHI_3.zip",
+            "source_checksum": "adbdeaac8217f9d2d05473d88325105e",
+            "input_file": "AMVR_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "AMVR_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/AMVR_B_HHI_3.zip",
+            "source_checksum": "1adddf44e8ffdd5275dfef63068f5481",
+            "input_file": "AMVR_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSALF_A_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSALF_A_Qualcomm_2.zip",
+            "source_checksum": "c43abdc0fb551951c20dd88a52c49b5e",
+            "input_file": "APSALF_A_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSLMCS_A_Dolby_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSLMCS_A_Dolby_3.zip",
+            "source_checksum": "1412c7e05b8fd137f3b62bdaad911184",
+            "input_file": "APSLMCS_A_Dolby_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSLMCS_B_Dolby_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSLMCS_B_Dolby_3.zip",
+            "source_checksum": "0c122aa9891dc5865b1a3a24d448b261",
+            "input_file": "APSLMCS_B_Dolby_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSLMCS_C_Dolby_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSLMCS_C_Dolby_2.zip",
+            "source_checksum": "d5dae25457fc4588497ac50ebe0d39b0",
+            "input_file": "APSLMCS_C_Dolby_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSLMCS_D_Dolby_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSLMCS_D_Dolby_1.zip",
+            "source_checksum": "03ea51c8fdb3fa5ad850bde203fbf765",
+            "input_file": "APSLMCS_D_Dolby_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSLMCS_E_Dolby_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSLMCS_E_Dolby_1.zip",
+            "source_checksum": "69cb3bd07807fb70842bd8079283d9f2",
+            "input_file": "APSLMCS_E_Dolby_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSMULT_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSMULT_A_MediaTek_4.zip",
+            "source_checksum": "5518f0ab1432c0c1e903998ceacba1c1",
+            "input_file": "APSMULT_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "APSMULT_B_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/APSMULT_B_MediaTek_4.zip",
+            "source_checksum": "83b118f26d1ad28b96e2096d42a83b1a",
+            "input_file": "APSMULT_B_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "AUD_A_Broadcom_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/AUD_A_Broadcom_3.zip",
+            "source_checksum": "097925e3365509b7191b7aec4c74d537",
+            "input_file": "AUD_A_Broadcom_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BCW_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BCW_A_MediaTek_4.zip",
+            "source_checksum": "0dbc6610fb454be39c0b9210d06bd0bf",
+            "input_file": "BCW_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BDOF_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BDOF_A_MediaTek_4.zip",
+            "source_checksum": "a656bbf473c24ca5dbe959aa205b24e2",
+            "input_file": "BDOF_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BDPCM_A_Orange_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BDPCM_A_Orange_2.zip",
+            "source_checksum": "e89e89c1cd7ec1667a18c0805c02f357",
+            "input_file": "BDPCM_A_Orange_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BOUNDARY_A_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BOUNDARY_A_Huawei_3.zip",
+            "source_checksum": "2262a19d6ef53c654efa7099926588b3",
+            "input_file": "BOUNDARY_A_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BUMP_A_LGE_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BUMP_A_LGE_2.zip",
+            "source_checksum": "0d7f0e827f02d8ce1cbc608133a37c1e",
+            "input_file": "BUMP_A_LGE_2/BUMP_A_LGE_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BUMP_B_LGE_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BUMP_B_LGE_2.zip",
+            "source_checksum": "7bde2b030d6fc40d77045f2ae30d3b2e",
+            "input_file": "BUMP_B_LGE_2/BUMP_B_LGE_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "BUMP_C_LGE_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/BUMP_C_LGE_2.zip",
+            "source_checksum": "36fd305711aee5b7738e45cabf5db1b7",
+            "input_file": "BUMP_C_LGE_2/BUMP_C_LGE_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CCALF_A_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CCALF_A_Sharp_3.zip",
+            "source_checksum": "b50a86478f35b5c08e830be5c5a29a8c",
+            "input_file": "CCALF_A_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CCALF_B_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CCALF_B_Sharp_3.zip",
+            "source_checksum": "340fd737ed3e1d6251ad9b21ebcd1377",
+            "input_file": "CCALF_B_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CCALF_C_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CCALF_C_Sharp_3.zip",
+            "source_checksum": "dd31bac2642e54fb138fd2bc2f90abad",
+            "input_file": "CCALF_C_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CCALF_D_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CCALF_D_Sharp_3.zip",
+            "source_checksum": "c290b6a6e7bab022bf717bcf6241ae57",
+            "input_file": "CCALF_D_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CCLM_A_KDDI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CCLM_A_KDDI_2.zip",
+            "source_checksum": "e6dea74c8390de49e280e7c44043fed1",
+            "input_file": "CCLM_A_KDDI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CIIP_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CIIP_A_MediaTek_4.zip",
+            "source_checksum": "099718ef5f93d35185583b2ae0af53e2",
+            "input_file": "CIIP_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CodingToolsSets_A_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CodingToolsSets_A_Tencent_2.zip",
+            "source_checksum": "7f4f40b03159b61cf79a1236869061e8",
+            "input_file": "CodingToolsSets_A_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CodingToolsSets_B_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CodingToolsSets_B_Tencent_2.zip",
+            "source_checksum": "412b42857d9965297084d04cd7ca7768",
+            "input_file": "CodingToolsSets_B_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CodingToolsSets_C_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CodingToolsSets_C_Tencent_2.zip",
+            "source_checksum": "b08534a83f9d5168085641f008009434",
+            "input_file": "CodingToolsSets_C_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CodingToolsSets_D_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CodingToolsSets_D_Tencent_2.zip",
+            "source_checksum": "49a8f5d5e7003c63f3e10db3fecbf2a8",
+            "input_file": "CodingToolsSets_D_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CodingToolsSets_E_Tencent_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CodingToolsSets_E_Tencent_1.zip",
+            "source_checksum": "6fe72ed5936202258579e1dcb24939d2",
+            "input_file": "CodingToolsSets_E_Tencent_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CROP_A_Panasonic_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CROP_A_Panasonic_3.zip",
+            "source_checksum": "0f178441152aea0375a3eee0d2647b8d",
+            "input_file": "CROP_A_Panasonic_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CROP_B_Panasonic_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CROP_B_Panasonic_4.zip",
+            "source_checksum": "c85a61e0919d61bd8f54f12dc6af55f1",
+            "input_file": "CROP_B_Panasonic_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CST_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CST_A_MediaTek_4.zip",
+            "source_checksum": "64eb59c00971b03d01b0a0d1c7e079e2",
+            "input_file": "CST_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CTU_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CTU_A_MediaTek_4.zip",
+            "source_checksum": "e6c66de86d87932c069c74ad3ce4bd4b",
+            "input_file": "CTU_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CTU_B_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CTU_B_MediaTek_4.zip",
+            "source_checksum": "438e7f5d9b6886e301d90e19bcf9e047",
+            "input_file": "CTU_B_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CTU_C_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CTU_C_MediaTek_4.zip",
+            "source_checksum": "338c8591af6c084e92057f3be9b6eea2",
+            "input_file": "CTU_C_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CUBEMAP_A_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CUBEMAP_A_MediaTek_3.zip",
+            "source_checksum": "5efecb54ee777a4cd6020a7b86d42382",
+            "input_file": "CUBEMAP_A_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CUBEMAP_B_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CUBEMAP_B_MediaTek_3.zip",
+            "source_checksum": "f057ac011f4f38aa2d1dbde5a6035b90",
+            "input_file": "CUBEMAP_B_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "CUBEMAP_C_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/CUBEMAP_C_MediaTek_3.zip",
+            "source_checksum": "b8eed8d69254dbc8b7d24e2bc387a832",
+            "input_file": "CUBEMAP_C_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DCI_A_Tencent_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DCI_A_Tencent_3.zip",
+            "source_checksum": "d6ae548d9ef3a07359640212335c77e1",
+            "input_file": "DCI_A_Tencent_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DCI_B_Tencent_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DCI_B_Tencent_3.zip",
+            "source_checksum": "b0b915bd68ff17d00a583081f539c244",
+            "input_file": "DCI_B_Tencent_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DEBLOCKING_A_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DEBLOCKING_A_Sharp_3.zip",
+            "source_checksum": "a2c2bfab128c76a9b71afe2de28617a8",
+            "input_file": "DEBLOCKING_A_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DEBLOCKING_B_Sharp_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DEBLOCKING_B_Sharp_2.zip",
+            "source_checksum": "dbf577b36b18ba8ff1edfea28ecf3afc",
+            "input_file": "DEBLOCKING_B_Sharp_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DEBLOCKING_C_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DEBLOCKING_C_Huawei_3.zip",
+            "source_checksum": "bf10c7331358ab87dd0f45f7ce728e56",
+            "input_file": "DEBLOCKING_C_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DEBLOCKING_E_Ericsson_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DEBLOCKING_E_Ericsson_3.zip",
+            "source_checksum": "00cb7f8ffa5bcbd38117bdcbfc4971ec",
+            "input_file": "DEBLOCKING_E_Ericsson_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DEBLOCKING_F_Ericsson_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DEBLOCKING_F_Ericsson_2.zip",
+            "source_checksum": "fdca8adf95cf3a878d4e79b53492ed75",
+            "input_file": "DEBLOCKING_F_Ericsson_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DMVR_A_Huawei_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DMVR_A_Huawei_3.zip",
+            "source_checksum": "d4c0917498520e71426a8cab731e32e8",
+            "input_file": "DMVR_A_Huawei_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DMVR_B_KDDI_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DMVR_B_KDDI_4.zip",
+            "source_checksum": "fdb321db19d6aae04212ffaa3cd8e2a7",
+            "input_file": "DMVR_B_KDDI_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DPB_A_Sharplabs_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DPB_A_Sharplabs_2.zip",
+            "source_checksum": "874f07a04cfb61a247eceab1cd1a6f32",
+            "input_file": "DPB_A_Sharplabs_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DPB_B_Sharplabs_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DPB_B_Sharplabs_2.zip",
+            "source_checksum": "99229b7ba63bb369091751f03921fe69",
+            "input_file": "DPB_B_Sharplabs_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DQ_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DQ_A_HHI_3.zip",
+            "source_checksum": "f1a983c298b452a4ba6d28a8e30a54ad",
+            "input_file": "DQ_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "DQ_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/DQ_B_HHI_3.zip",
+            "source_checksum": "f19e87b91da5d0db54a6e91c701d5ded",
+            "input_file": "DQ_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444HIGHTIER_A_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444HIGHTIER_A_Sony_3.zip",
+            "source_checksum": "c9ccb170fd748594ccc0efeac57b7bb9",
+            "input_file": "ENT444HIGHTIER_A_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444HIGHTIER_B_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444HIGHTIER_B_Sony_3.zip",
+            "source_checksum": "1550af71f36014db947267a320f5f4c5",
+            "input_file": "ENT444HIGHTIER_B_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444HIGHTIER_C_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444HIGHTIER_C_Sony_3.zip",
+            "source_checksum": "ee057dec83b70a3b5ff6e1b430c1ddf6",
+            "input_file": "ENT444HIGHTIER_C_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444HIGHTIER_D_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444HIGHTIER_D_Sony_3.zip",
+            "source_checksum": "8c3ff487c1809ed9a5e7dbad344b4eea",
+            "input_file": "ENT444HIGHTIER_D_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444MAINTIER_A_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444MAINTIER_A_Sony_3.zip",
+            "source_checksum": "af302bc135ce7402de4d097bf6b2ac57",
+            "input_file": "ENT444MAINTIER_A_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444MAINTIER_B_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444MAINTIER_B_Sony_3.zip",
+            "source_checksum": "a175e2b82fbce2d06b7ef4dd85ca53f4",
+            "input_file": "ENT444MAINTIER_B_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444MAINTIER_C_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444MAINTIER_C_Sony_3.zip",
+            "source_checksum": "71d02b89466ddab42acb19c0fa382ba7",
+            "input_file": "ENT444MAINTIER_C_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENT444MAINTIER_D_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENT444MAINTIER_D_Sony_3.zip",
+            "source_checksum": "d3a8b49886cf156fe9b7525557e0cd06",
+            "input_file": "ENT444MAINTIER_D_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTHIGHTIER_A_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTHIGHTIER_A_Sony_3.zip",
+            "source_checksum": "9c18b32409d8344e10067f04102d541d",
+            "input_file": "ENTHIGHTIER_A_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTHIGHTIER_B_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTHIGHTIER_B_Sony_3.zip",
+            "source_checksum": "916e6c5ae75d1c8132e4e1eec28e095a",
+            "input_file": "ENTHIGHTIER_B_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTHIGHTIER_C_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTHIGHTIER_C_Sony_3.zip",
+            "source_checksum": "d90237f09d36e7b052d5afdf93c4080c",
+            "input_file": "ENTHIGHTIER_C_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTHIGHTIER_D_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTHIGHTIER_D_Sony_3.zip",
+            "source_checksum": "43f73a1263fe6b88a3b9a161e8271871",
+            "input_file": "ENTHIGHTIER_D_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTMAINTIER_A_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTMAINTIER_A_Sony_3.zip",
+            "source_checksum": "a637ecbb3899894d0539e71553280cac",
+            "input_file": "ENTMAINTIER_A_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTMAINTIER_B_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTMAINTIER_B_Sony_3.zip",
+            "source_checksum": "8b5dfee7f94edf729658f48a84c32d33",
+            "input_file": "ENTMAINTIER_B_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTMAINTIER_C_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTMAINTIER_C_Sony_3.zip",
+            "source_checksum": "21eb683a70dd0a64910713bf6b8aaa5a",
+            "input_file": "ENTMAINTIER_C_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTMAINTIER_D_Sony_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTMAINTIER_D_Sony_3.zip",
+            "source_checksum": "02dc25d3c2931a81cd51715e4a2f6923",
+            "input_file": "ENTMAINTIER_D_Sony_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTROPY_A_Chipsnmedia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTROPY_A_Chipsnmedia_2.zip",
+            "source_checksum": "7ff81fec4fde82db67b5163db2fe5d02",
+            "input_file": "ENTROPY_A_Chipsnmedia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTROPY_B_Sharp_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTROPY_B_Sharp_2.zip",
+            "source_checksum": "6f0c03b906059c9ed8b644f24c38b4ad",
+            "input_file": "ENTROPY_B_Sharp_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ENTROPY_C_Qualcomm_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ENTROPY_C_Qualcomm_1.zip",
+            "source_checksum": "52e58c9afcf76cedf9eb2d3cadfb8a1f",
+            "input_file": "ENTROPY_C_Qualcomm_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ERP_A_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ERP_A_MediaTek_3.zip",
+            "source_checksum": "0e7271205ab2a221f4ec7a5fb3a3caef",
+            "input_file": "ERP_A_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "FIELD_A_Panasonic_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/FIELD_A_Panasonic_4.zip",
+            "source_checksum": "c10dbb5efa0074a09b97cf246246d60b",
+            "input_file": "FIELD_A_Panasonic_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "FIELD_B_Panasonic_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/FIELD_B_Panasonic_2.zip",
+            "source_checksum": "3cd57fe5519dfc5c583cef536ba9151a",
+            "input_file": "FIELD_B_Panasonic_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "FILLER_A_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/FILLER_A_Bytedance_1.zip",
+            "source_checksum": "ff6d6bf18f512f582d29782d19a0279e",
+            "input_file": "FILLER_A_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GDR_A_ERICSSON_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GDR_A_ERICSSON_2.zip",
+            "source_checksum": "5b4a5e390db317248a584741e9bd154f",
+            "input_file": "GDR_A_ERICSSON_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GDR_B_NOKIA_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GDR_B_NOKIA_2.zip",
+            "source_checksum": "1309aea7cd10e208f19c55136fb10286",
+            "input_file": "GDR_B_NOKIA_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GDR_C_NOKIA_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GDR_C_NOKIA_2.zip",
+            "source_checksum": "150cd17349e4510f21828fd4bcfcb557",
+            "input_file": "GDR_C_NOKIA_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GDR_D_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GDR_D_ERICSSON_1.zip",
+            "source_checksum": "bbc2168685338f8520d0cd06c0265c1a",
+            "input_file": "GDR_D_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GPM_A_Alibaba_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GPM_A_Alibaba_3.zip",
+            "source_checksum": "1ceb9a72c83646ba63184a371e9dcb78",
+            "input_file": "GPM_A_Alibaba_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "GPM_B_Alibaba_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/GPM_B_Alibaba_1.zip",
+            "source_checksum": "e4d249d84871bc9c7a26820a2c451f19",
+            "input_file": "GPM_B_Alibaba_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "HLG_A_NHK_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/HLG_A_NHK_4.zip",
+            "source_checksum": "3d8d4171c872036780dbf5fe7c243aa1",
+            "input_file": "HLG_A_NHK_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "HLG_B_NHK_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/HLG_B_NHK_4.zip",
+            "source_checksum": "6eabeb0f3cc0a6ffa510cc90983cc84e",
+            "input_file": "HLG_B_NHK_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "HRD_A_Fujitsu_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/HRD_A_Fujitsu_3.zip",
+            "source_checksum": "ff5ea35455c10d48e4028762009da648",
+            "input_file": "HRD_A_Fujitsu_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "HRD_B_Fujitsu_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/HRD_B_Fujitsu_2.zip",
+            "source_checksum": "540056b0f9cf2e94aadadb7de1bf527e",
+            "input_file": "HRD_B_Fujitsu_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IBC_A_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IBC_A_Tencent_2.zip",
+            "source_checksum": "3c3e6e9f7a88a90fd53926965a555eb3",
+            "input_file": "IBC_A_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IBC_B_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IBC_B_Tencent_2.zip",
+            "source_checksum": "9fe40bf731bcc138dbf0e9956d9a8ca0",
+            "input_file": "IBC_B_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IBC_C_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IBC_C_Tencent_2.zip",
+            "source_checksum": "2771a586deb169b42309f0c99d58d780",
+            "input_file": "IBC_C_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IBC_D_Tencent_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IBC_D_Tencent_2.zip",
+            "source_checksum": "9f679f9c6d5475bd6422b31e2c3afd8d",
+            "input_file": "IBC_D_Tencent_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ILRPL_A_Huawei_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ILRPL_A_Huawei_2.zip",
+            "source_checksum": "39303261921828d3a60823520230e544",
+            "input_file": "ILRPL_A_Huawei_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IP_A_Huawei_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IP_A_Huawei_2.zip",
+            "source_checksum": "84035045dfe40fd18e967f2b40fffeea",
+            "input_file": "IP_A_Huawei_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "IP_B_Nokia_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/IP_B_Nokia_1.zip",
+            "source_checksum": "1087f2e948079a70e80155c380a8d824",
+            "input_file": "IP_B_Nokia_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ISP_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ISP_A_HHI_3.zip",
+            "source_checksum": "833753172d5aea802f525793cf4fa668",
+            "input_file": "ISP_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "ISP_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/ISP_B_HHI_3.zip",
+            "source_checksum": "e0e25aff59bff4037c3049f5554e7bff",
+            "input_file": "ISP_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_A_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_A_Nokia_2.zip",
+            "source_checksum": "079742dd86ea06df90480f17ac199c7e",
+            "input_file": "JCCR_A_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_B_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_B_Nokia_2.zip",
+            "source_checksum": "6c0bf864661fd920a66c9f50a27c07ef",
+            "input_file": "JCCR_B_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_C_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_C_HHI_3.zip",
+            "source_checksum": "36c1c79651a276fc904779b3467fe437",
+            "input_file": "JCCR_C_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_D_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_D_HHI_3.zip",
+            "source_checksum": "4239c5712fe596a62ce545cf077a04cb",
+            "input_file": "JCCR_D_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_E_Nokia_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_E_Nokia_1.zip",
+            "source_checksum": "d455d564c317486541eea7d8d65897f8",
+            "input_file": "JCCR_E_Nokia_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "JCCR_F_Nokia_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/JCCR_F_Nokia_1.zip",
+            "source_checksum": "4c55ece0c188180f902f5f6c8292b1d6",
+            "input_file": "JCCR_F_Nokia_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LFNST_A_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LFNST_A_LGE_4.zip",
+            "source_checksum": "e9bc368a83adc9a59d68899d438440d3",
+            "input_file": "LFNST_A_LGE_4/LFNST_A_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LFNST_B_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LFNST_B_LGE_4.zip",
+            "source_checksum": "2bc93e7703dfa49922b39119da836416",
+            "input_file": "LFNST_B_LGE_4/LFNST_B_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LFNST_C_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LFNST_C_HHI_3.zip",
+            "source_checksum": "827f217d2c678f88dee976560506c0cb",
+            "input_file": "LFNST_C_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LFNST_D_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LFNST_D_HHI_3.zip",
+            "source_checksum": "4d70e0919137c0f04a1a86fdafcd8a0a",
+            "input_file": "LFNST_D_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LMCS_A_Dolby_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LMCS_A_Dolby_3.zip",
+            "source_checksum": "1f814262f21d51ef175eee8eee4013f1",
+            "input_file": "LMCS_A_Dolby_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LMCS_B_Dolby_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LMCS_B_Dolby_2.zip",
+            "source_checksum": "ce1fc976779ec89d5bc8cade3df23d1e",
+            "input_file": "LMCS_B_Dolby_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LMCS_C_Dolby_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LMCS_C_Dolby_1.zip",
+            "source_checksum": "a8bccc90f9073bfa42481f8eb9d8a458",
+            "input_file": "LMCS_C_Dolby_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LOSSLESS_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LOSSLESS_A_HHI_3.zip",
+            "source_checksum": "d90413d2aaa395f4bb2feacb43281685",
+            "input_file": "LOSSLESS_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LOSSLESS_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LOSSLESS_B_HHI_3.zip",
+            "source_checksum": "59cb2b3e26b86e59907c218daa752c00",
+            "input_file": "LOSSLESS_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "LTRP_A_ERICSSON_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/LTRP_A_ERICSSON_3.zip",
+            "source_checksum": "c40978305f336475f2637321fc925818",
+            "input_file": "LTRP_A_ERICSSON_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_A_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_A_Qualcomm_2.zip",
+            "source_checksum": "afd1007378612764daccfaf59e1e9d2c",
+            "input_file": "MERGE_A_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_B_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_B_Qualcomm_2.zip",
+            "source_checksum": "98d177ab743227a972278e55e5d88034",
+            "input_file": "MERGE_B_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_C_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_C_Qualcomm_2.zip",
+            "source_checksum": "084dceca82d94a958835ab2ce19670fa",
+            "input_file": "MERGE_C_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_D_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_D_Qualcomm_2.zip",
+            "source_checksum": "43faba23a2292017f91fb5b3d8c1b8f7",
+            "input_file": "MERGE_D_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_E_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_E_Qualcomm_2.zip",
+            "source_checksum": "691e8842697f07f5a681030109d7d740",
+            "input_file": "MERGE_E_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_F_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_F_Qualcomm_2.zip",
+            "source_checksum": "a3fa3844271b4454068510e0f4fa0a2a",
+            "input_file": "MERGE_F_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_G_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_G_Qualcomm_2.zip",
+            "source_checksum": "c8a4f0ba48e6e7a817d2ca85149cdb5e",
+            "input_file": "MERGE_G_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_H_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_H_Qualcomm_2.zip",
+            "source_checksum": "e3eecb2f56d94d20abb91529ae4d54a0",
+            "input_file": "MERGE_H_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_I_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_I_Qualcomm_2.zip",
+            "source_checksum": "e488597089e21c7553616d534f951280",
+            "input_file": "MERGE_I_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MERGE_J_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MERGE_J_Qualcomm_2.zip",
+            "source_checksum": "d85b3d2a6eb423b16bd57fc38b7b9809",
+            "input_file": "MERGE_J_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MIP_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MIP_A_HHI_3.zip",
+            "source_checksum": "41dce508aed6a8f8855bdb03ecaddc7c",
+            "input_file": "MIP_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MIP_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MIP_B_HHI_3.zip",
+            "source_checksum": "f3a42779dc1bb45e03c49ad3f79c8215",
+            "input_file": "MIP_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MMVD_A_SAMSUNG_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MMVD_A_SAMSUNG_3.zip",
+            "source_checksum": "bcd2887f254db36c020f5eb0c64c3a47",
+            "input_file": "MMVD_A_SAMSUNG_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MNUT_A_Nokia_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MNUT_A_Nokia_3.zip",
+            "source_checksum": "e26d46c79970021742f0696016220a3a",
+            "input_file": "MNUT_A_Nokia_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MNUT_B_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MNUT_B_Nokia_2.zip",
+            "source_checksum": "2b6394fdefdf620245daf84a514d6867",
+            "input_file": "MNUT_B_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MPM_A_LGE_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MPM_A_LGE_3.zip",
+            "source_checksum": "4576a42bac5ccab807267881d858cf54",
+            "input_file": "MPM_A_LGE_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MRLP_A_HHI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MRLP_A_HHI_2.zip",
+            "source_checksum": "fe3517016e4214e80635239e9b935f7b",
+            "input_file": "MRLP_A_HHI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MRLP_B_HHI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MRLP_B_HHI_2.zip",
+            "source_checksum": "8c30ac6884b871ee4a7729b02ff7a9ed",
+            "input_file": "MRLP_B_HHI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MTS_A_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MTS_A_LGE_4.zip",
+            "source_checksum": "5446a54b3ae81364f5e2472642f1d1be",
+            "input_file": "MTS_A_LGE_4/MTS_A_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MTS_B_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MTS_B_LGE_4.zip",
+            "source_checksum": "c19a8a7fffbe7f7f5becf73fa0a8c2f7",
+            "input_file": "MTS_B_LGE_4/MTS_B_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MTS_LFNST_A_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MTS_LFNST_A_LGE_4.zip",
+            "source_checksum": "7708fcefef7b56332b49443089b4da9b",
+            "input_file": "MTS_LFNST_A_LGE_4/MTS_LFNST_A_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MTS_LFNST_B_LGE_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MTS_LFNST_B_LGE_4.zip",
+            "source_checksum": "5fbab59a49df2ed430ead9acc80b768c",
+            "input_file": "MTS_LFNST_B_LGE_4/MTS_LFNST_B_LGE_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "MVCOMP_A_Sharp_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/MVCOMP_A_Sharp_2.zip",
+            "source_checksum": "b9a112c9fcf1c4a7eb70451099672044",
+            "input_file": "MVCOMP_A_Sharp_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "OLS_A_Tencent_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/OLS_A_Tencent_4.zip",
+            "source_checksum": "f1246ae73a2e5a9ce1fe0140f155042f",
+            "input_file": "OLS_A_Tencent_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "OLS_B_Tencent_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/OLS_B_Tencent_4.zip",
+            "source_checksum": "963139b3f1b0d9021815543fa1d1d6e3",
+            "input_file": "OLS_B_Tencent_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "OLS_C_Tencent_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/OLS_C_Tencent_4.zip",
+            "source_checksum": "ee38a835bfc85ba23a02afb06a40ac0d",
+            "input_file": "OLS_C_Tencent_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "OPI_A_Nokia_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/OPI_A_Nokia_1.zip",
+            "source_checksum": "118302483bd51f6503326ca348d353de",
+            "input_file": "OPI_A_Nokia_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "OPI_B_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/OPI_B_Nokia_2.zip",
+            "source_checksum": "349b116ba6aac4803c3f0b8f1539a923",
+            "input_file": "OPI_B_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PALETTE_A_Alibaba_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PALETTE_A_Alibaba_2.zip",
+            "source_checksum": "3c7b04f21cdc8aa11c3db0f4e4ce4982",
+            "input_file": "PALETTE_A_Alibaba_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PALETTE_B_Alibaba_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PALETTE_B_Alibaba_2.zip",
+            "source_checksum": "5c0ab4e1ee6fd5e34a23018e2c96a4e6",
+            "input_file": "PALETTE_B_Alibaba_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PALETTE_C_Alibaba_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PALETTE_C_Alibaba_2.zip",
+            "source_checksum": "eb0a2f291992cf4f832e5595f6027e7f",
+            "input_file": "PALETTE_C_Alibaba_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PALETTE_D_Alibaba_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PALETTE_D_Alibaba_2.zip",
+            "source_checksum": "05439580e357779606b0a8dcbaead707",
+            "input_file": "PALETTE_D_Alibaba_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PALETTE_E_Alibaba_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PALETTE_E_Alibaba_2.zip",
+            "source_checksum": "8d5af2d36848e916d094fd98a0d5b419",
+            "input_file": "PALETTE_E_Alibaba_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PDPC_A_Qualcomm_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PDPC_A_Qualcomm_3.zip",
+            "source_checksum": "44fa95fb3c68ff9bc344f64a4d442ddb",
+            "input_file": "PDPC_A_Qualcomm_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PDPC_B_Qualcomm_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PDPC_B_Qualcomm_3.zip",
+            "source_checksum": "5022105ac52f2795307385c6249ed700",
+            "input_file": "PDPC_B_Qualcomm_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PDPC_C_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PDPC_C_Qualcomm_2.zip",
+            "source_checksum": "17082beff909ace71ab8edb2439391d3",
+            "input_file": "PDPC_C_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PHSH_B_Sharp_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PHSH_B_Sharp_1.zip",
+            "source_checksum": "b7fec19b8dab937accd1589877fd6843",
+            "input_file": "PHSH_B_Sharp_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PMERGE_A_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PMERGE_A_MediaTek_1.zip",
+            "source_checksum": "6574b1c0614efa67de422d764460f9fd",
+            "input_file": "PMERGE_A_MediaTek_1/PMERGE_A_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PMERGE_B_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PMERGE_B_MediaTek_1.zip",
+            "source_checksum": "9cd4ae95a54f89dbb039fced91cfdb5e",
+            "input_file": "PMERGE_B_MediaTek_1/PMERGE_B_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PMERGE_C_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PMERGE_C_MediaTek_1.zip",
+            "source_checksum": "4c198403788ddf59af92f04885bb345a",
+            "input_file": "PMERGE_C_MediaTek_1/PMERGE_C_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PMERGE_D_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PMERGE_D_MediaTek_1.zip",
+            "source_checksum": "d81af6e31dd184556be176d3082b55c4",
+            "input_file": "PMERGE_D_MediaTek_1/PMERGE_D_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PMERGE_E_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PMERGE_E_MediaTek_1.zip",
+            "source_checksum": "3cb912fa2fda61c6d671d00c55fa952d",
+            "input_file": "PMERGE_E_MediaTek_1/PMERGE_E_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "POC_A_Nokia_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/POC_A_Nokia_1.zip",
+            "source_checksum": "7aecc887620217cb953877fca180def5",
+            "input_file": "POC_A_Nokia_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "POUT_A_Sharplabs_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/POUT_A_Sharplabs_2.zip",
+            "source_checksum": "341c950dd2cf75c5c5b9ca644a2283ed",
+            "input_file": "POUT_A_Sharplabs_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PPS_A_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PPS_A_Bytedance_1.zip",
+            "source_checksum": "59e34ba04f932e07bdf0a0eaf6ce3061",
+            "input_file": "PPS_A_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PPS_B_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PPS_B_Bytedance_1.zip",
+            "source_checksum": "0df398d9cae6bdc925aed55874dc8571",
+            "input_file": "PPS_B_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PPS_C_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PPS_C_Bytedance_1.zip",
+            "source_checksum": "6bb93a285c308865cbff56912d805ae8",
+            "input_file": "PPS_C_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PQ_A_Dolby_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PQ_A_Dolby_1.zip",
+            "source_checksum": "cbd5c826818ab2414694439019b4f450",
+            "input_file": "PQ_A_Dolby_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PROF_A_Interdigital_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PROF_A_Interdigital_3.zip",
+            "source_checksum": "14a9ad109ec065bf68327b7e586c30bf",
+            "input_file": "PROF_A_Interdigital_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PROF_B_Interdigital_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PROF_B_Interdigital_3.zip",
+            "source_checksum": "2dac3be0306a44d2cb310c5121476b37",
+            "input_file": "PROF_B_Interdigital_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PSEXT_A_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PSEXT_A_Nokia_2.zip",
+            "source_checksum": "ad39a2dfc90f2b8140332fc2668bd10c",
+            "input_file": "PSEXT_A_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "PSEXT_B_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/PSEXT_B_Nokia_2.zip",
+            "source_checksum": "c300dcc042b3de2956194679f7fe5357",
+            "input_file": "PSEXT_B_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QTBTT_A_MediaTek_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QTBTT_A_MediaTek_4.zip",
+            "source_checksum": "95facea134e7768230003e558668b6ed",
+            "input_file": "QTBTT_A_MediaTek_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QUANT_A_Huawei_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QUANT_A_Huawei_2.zip",
+            "source_checksum": "f286b1d3c4a4e446fbd13240d0386caf",
+            "input_file": "QUANT_A_Huawei_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QUANT_B_Huawei_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QUANT_B_Huawei_2.zip",
+            "source_checksum": "c7dd125e282d56022754d58cfe8b3ca9",
+            "input_file": "QUANT_B_Huawei_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QUANT_C_Huawei_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QUANT_C_Huawei_2.zip",
+            "source_checksum": "bf01d6f6a1f5b96b72cc679186315356",
+            "input_file": "QUANT_C_Huawei_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QUANT_D_Huawei_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QUANT_D_Huawei_4.zip",
+            "source_checksum": "b7c2729f7c80c21c726a49b758706a05",
+            "input_file": "QUANT_D_Huawei_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "QUANT_E_Interdigital_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/QUANT_E_Interdigital_1.zip",
+            "source_checksum": "7cd1804ff0355e5ac97489b07439269c",
+            "input_file": "QUANT_E_Interdigital_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RAP_A_HHI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RAP_A_HHI_1.zip",
+            "source_checksum": "9a3cd5514fa4ed9ddbe51e838c300ea5",
+            "input_file": "RAP_A_HHI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RAP_B_HHI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RAP_B_HHI_1.zip",
+            "source_checksum": "58beb44a5ba9ddcd68df716f1b7f6db1",
+            "input_file": "RAP_B_HHI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RAP_C_HHI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RAP_C_HHI_1.zip",
+            "source_checksum": "c3155aafc17a815896031d0971c437f0",
+            "input_file": "RAP_C_HHI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RAP_D_HHI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RAP_D_HHI_1.zip",
+            "source_checksum": "066e8b18fd17eec9e13b5015e3c0a294",
+            "input_file": "RAP_D_HHI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RPL_A_ERICSSON_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RPL_A_ERICSSON_2.zip",
+            "source_checksum": "d0398e003adc03ed0dcc23e3c67713f0",
+            "input_file": "RPL_A_ERICSSON_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RPR_A_Alibaba_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RPR_A_Alibaba_4.zip",
+            "source_checksum": "47f9992a3513c26127ac459b59a888e7",
+            "input_file": "RPR_A_Alibaba_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RPR_B_Alibaba_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RPR_B_Alibaba_3.zip",
+            "source_checksum": "b669a9b3239cb08774ffd0f29ed55ada",
+            "input_file": "RPR_B_Alibaba_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RPR_C_Alibaba_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RPR_C_Alibaba_3.zip",
+            "source_checksum": "b01921d929cfa98ab0fee3504b4c1211",
+            "input_file": "RPR_C_Alibaba_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "RPR_D_Qualcomm_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/RPR_D_Qualcomm_1.zip",
+            "source_checksum": "53ad2f47c640a055a38e65c13c313db6",
+            "input_file": "RPR_D_Qualcomm_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SAO_A_SAMSUNG_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SAO_A_SAMSUNG_3.zip",
+            "source_checksum": "327f5353be83f9cecbf72d139e5d9ae4",
+            "input_file": "SAO_A_SAMSUNG_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SAO_B_SAMSUNG_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SAO_B_SAMSUNG_3.zip",
+            "source_checksum": "3acaeb055446e971ae87fc00b3f594aa",
+            "input_file": "SAO_B_SAMSUNG_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SAO_C_SAMSUNG_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SAO_C_SAMSUNG_3.zip",
+            "source_checksum": "9fe816ff32c570e45ffec14e34c251cb",
+            "input_file": "SAO_C_SAMSUNG_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SBT_A_HUAWEI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SBT_A_HUAWEI_2.zip",
+            "source_checksum": "26e637c731b63641d755694d3ae83b86",
+            "input_file": "SBT_A_HUAWEI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SbTMVP_A_Bytedance_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SbTMVP_A_Bytedance_3.zip",
+            "source_checksum": "d046b8b7a0c7f1915b85b17485f9a9cf",
+            "input_file": "SbTMVP_A_Bytedance_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SbTMVP_B_Bytedance_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SbTMVP_B_Bytedance_3.zip",
+            "source_checksum": "9448d84cb137a5409041f052c1b62625",
+            "input_file": "SbTMVP_B_Bytedance_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SCALING_A_InterDigital_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SCALING_A_InterDigital_1.zip",
+            "source_checksum": "1b5a690364dee391a28972ac2ec314cf",
+            "input_file": "SCALING_A_InterDigital_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SCALING_B_InterDigital_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SCALING_B_InterDigital_1.zip",
+            "source_checksum": "1b9026b6120d7c77ae9d31fbfd70f3dc",
+            "input_file": "SCALING_B_InterDigital_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SCALING_C_InterDigital_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SCALING_C_InterDigital_1.zip",
+            "source_checksum": "8a7fb1ceab6647eb2ab65b4f1f7bd90a",
+            "input_file": "SCALING_C_InterDigital_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SDH_A_Dolby_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SDH_A_Dolby_2.zip",
+            "source_checksum": "cd3d572e66c907989abe1fe9be23ae7c",
+            "input_file": "SDH_A_Dolby_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SLICES_A_HUAWEI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SLICES_A_HUAWEI_2.zip",
+            "source_checksum": "0bdf2eee2153fd5558b23805c786a16a",
+            "input_file": "SLICES_A_HUAWEI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SMVD_A_HUAWEI_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SMVD_A_HUAWEI_2.zip",
+            "source_checksum": "10c3e859a5ad0f687690eff1dc931a53",
+            "input_file": "SMVD_A_HUAWEI_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SPATSCAL444_A_Qualcomm_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SPATSCAL444_A_Qualcomm_2.zip",
+            "source_checksum": "5d8cc69ee7a76c278ac83b297efd4a30",
+            "input_file": "SPATSCAL444_A_Qualcomm_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SPATSCAL_A_Qualcomm_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SPATSCAL_A_Qualcomm_3.zip",
+            "source_checksum": "5d75dad484ef0ef6fbcb49b922f0dbb6",
+            "input_file": "SPATSCAL_A_Qualcomm_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SPS_A_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SPS_A_Bytedance_1.zip",
+            "source_checksum": "7b9707372dd79fbbb3d9bf3e869390f2",
+            "input_file": "SPS_A_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SPS_B_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SPS_B_Bytedance_1.zip",
+            "source_checksum": "5456dcc6a4a3b35e498f1657bb22918f",
+            "input_file": "SPS_B_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SPS_C_Bytedance_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SPS_C_Bytedance_1.zip",
+            "source_checksum": "f020bbb8a68a818c1b44a35ef06e2609",
+            "input_file": "SPS_C_Bytedance_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "STILL444_A_KDDI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/STILL444_A_KDDI_1.zip",
+            "source_checksum": "25b4000a30502ada5c8cc4c9c4b104c0",
+            "input_file": "STILL444_A_KDDI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "STILL444_B_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/STILL444_B_ERICSSON_1.zip",
+            "source_checksum": "e6e21e44d50ad59131e75a6c92cb15df",
+            "input_file": "STILL444_B_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "STILL_A_KDDI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/STILL_A_KDDI_1.zip",
+            "source_checksum": "0b23e4cc2f768655011a67f7758716bf",
+            "input_file": "STILL_A_KDDI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "STILL_B_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/STILL_B_ERICSSON_1.zip",
+            "source_checksum": "e563fc4f2f2df772b085e78e8cb0f4ad",
+            "input_file": "STILL_B_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUBPIC_A_HUAWEI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUBPIC_A_HUAWEI_3.zip",
+            "source_checksum": "3b3db34d8c8127bde4bce5f1965aeade",
+            "input_file": "SUBPIC_A_HUAWEI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUBPIC_B_HUAWEI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUBPIC_B_HUAWEI_3.zip",
+            "source_checksum": "b61c9b5b7ad0689a0452114bdcebe22a",
+            "input_file": "SUBPIC_B_HUAWEI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUBPIC_C_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUBPIC_C_ERICSSON_1.zip",
+            "source_checksum": "c7f52bfadc93cc418b6f426669541cbb",
+            "input_file": "SUBPIC_C_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUBPIC_D_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUBPIC_D_ERICSSON_1.zip",
+            "source_checksum": "2a42772ab65ac31fb84cd370eaa571cd",
+            "input_file": "SUBPIC_D_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUBPIC_E_MediaTek_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUBPIC_E_MediaTek_1.zip",
+            "source_checksum": "43c017a0307f38c6250d52e93a06ed6f",
+            "input_file": "SUBPIC_E_MediaTek_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "SUFAPS_A_HHI_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/SUFAPS_A_HHI_1.zip",
+            "source_checksum": "1562a0e4df17c6a3fe6d5e06609bc2a7",
+            "input_file": "SUFAPS_A_HHI_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TEMPSCAL_A_Panasonic_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TEMPSCAL_A_Panasonic_4.zip",
+            "source_checksum": "1bc06e1d4e4b9d32753a974f4ffb2302",
+            "input_file": "TEMPSCAL_A_Panasonic_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TEMPSCAL_B_Panasonic_5",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TEMPSCAL_B_Panasonic_5.zip",
+            "source_checksum": "ed110f67f91a4863b600af0722a3186d",
+            "input_file": "TEMPSCAL_B_Panasonic_5.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TEMPSCAL_C_Panasonic_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TEMPSCAL_C_Panasonic_3.zip",
+            "source_checksum": "79123afd78f69560c516f594e1b4622a",
+            "input_file": "TEMPSCAL_C_Panasonic_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_A_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_A_Nokia_2.zip",
+            "source_checksum": "6efa3ca754ae9aff845d10b66a6f5af4",
+            "input_file": "TILE_A_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_B_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_B_Nokia_2.zip",
+            "source_checksum": "c709f0a2c427dae9a3ec7e5162632888",
+            "input_file": "TILE_B_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_C_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_C_Nokia_2.zip",
+            "source_checksum": "767424d7d917258cfe10ac1dd26e2697",
+            "input_file": "TILE_C_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_D_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_D_Nokia_2.zip",
+            "source_checksum": "def0e3ad8a6f221afc992b77cbf7d4af",
+            "input_file": "TILE_D_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_E_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_E_Nokia_2.zip",
+            "source_checksum": "4b136e6aa169a7d543abfe1f36616f39",
+            "input_file": "TILE_E_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_F_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_F_Nokia_2.zip",
+            "source_checksum": "7767410506a2e16bc5b2b56fda23d123",
+            "input_file": "TILE_F_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TILE_G_Nokia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TILE_G_Nokia_2.zip",
+            "source_checksum": "61389dd5763f0db1e141ee4798a54e4a",
+            "input_file": "TILE_G_Nokia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TMVP_A_Chipsnmedia_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TMVP_A_Chipsnmedia_3.zip",
+            "source_checksum": "8a71fe98940a1b912893cb5cc774fbe5",
+            "input_file": "TMVP_A_Chipsnmedia_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TMVP_B_Chipsnmedia_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TMVP_B_Chipsnmedia_3.zip",
+            "source_checksum": "57e0654a0aa30c3b5485edea2832b9f2",
+            "input_file": "TMVP_B_Chipsnmedia_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TMVP_C_Chipsnmedia_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TMVP_C_Chipsnmedia_3.zip",
+            "source_checksum": "b3b75f1683e0fd2530e7d87985046965",
+            "input_file": "TMVP_C_Chipsnmedia_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TMVP_D_Chipsnmedia_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TMVP_D_Chipsnmedia_3.zip",
+            "source_checksum": "aee76a2b8c4eea612c0db42a4a8f21d4",
+            "input_file": "TMVP_D_Chipsnmedia_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TRANS_A_Chipsnmedia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TRANS_A_Chipsnmedia_2.zip",
+            "source_checksum": "057790984c43c0cb62ac0f15a17e7506",
+            "input_file": "TRANS_A_Chipsnmedia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TRANS_B_Chipsnmedia_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TRANS_B_Chipsnmedia_2.zip",
+            "source_checksum": "5eee11382aee9c535f2ba8fa7569daea",
+            "input_file": "TRANS_B_Chipsnmedia_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TRANS_C_Chipsnmedia_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TRANS_C_Chipsnmedia_4.zip",
+            "source_checksum": "7f50cbadd522aff44ac002a3f9e29e4a",
+            "input_file": "TRANS_C_Chipsnmedia_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TRANS_D_Chipsnmedia_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TRANS_D_Chipsnmedia_4.zip",
+            "source_checksum": "6c7e0057c26f3d7021ef877397ff4c70",
+            "input_file": "TRANS_D_Chipsnmedia_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TREE_A_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TREE_A_HHI_3.zip",
+            "source_checksum": "ceb55b350ba64a97b93ac6186f84f861",
+            "input_file": "TREE_A_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TREE_B_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TREE_B_HHI_3.zip",
+            "source_checksum": "593ee7a707082ec3aea8821aa7970a1a",
+            "input_file": "TREE_B_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "TREE_C_HHI_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/TREE_C_HHI_3.zip",
+            "source_checksum": "285ce43473c77a505f14301332443076",
+            "input_file": "TREE_C_HHI_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "VIRTUAL_A_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/VIRTUAL_A_MediaTek_3.zip",
+            "source_checksum": "64d99b7aae3bab24185495273b013658",
+            "input_file": "VIRTUAL_A_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "VIRTUAL_B_MediaTek_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/VIRTUAL_B_MediaTek_3.zip",
+            "source_checksum": "d63fe2563b53598a7a5d1b6317da747d",
+            "input_file": "VIRTUAL_B_MediaTek_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "VPS_A_INTEL_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/VPS_A_INTEL_3.zip",
+            "source_checksum": "61aa914c529d3e4c2f8b73a82289e006",
+            "input_file": "VPS_A_INTEL_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "VPS_B_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/VPS_B_ERICSSON_1.zip",
+            "source_checksum": "d1b2a924605e9ab3b20552add17c4f87",
+            "input_file": "VPS_B_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "VPS_C_ERICSSON_1",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/VPS_C_ERICSSON_1.zip",
+            "source_checksum": "4a7a2f3a42ed96e0f313ad17bcedc1b7",
+            "input_file": "VPS_C_ERICSSON_1.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WP_A_InterDigital_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WP_A_InterDigital_3.zip",
+            "source_checksum": "9c1293b2c165cb466da50fc66c7c693b",
+            "input_file": "WP_A_InterDigital_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WP_B_InterDigital_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WP_B_InterDigital_3.zip",
+            "source_checksum": "a700f1ef85de2491afc0114f2a8b1986",
+            "input_file": "WP_B_InterDigital_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WPP_A_Sharp_3",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WPP_A_Sharp_3.zip",
+            "source_checksum": "7fe2a17bceafb4a03b5606799bb41c98",
+            "input_file": "WPP_A_Sharp_3.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WPP_B_Sharp_2",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WPP_B_Sharp_2.zip",
+            "source_checksum": "562b454ad6edd8c86daedf7ead6a12d9",
+            "input_file": "WPP_B_Sharp_2.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WRAP_A_InterDigital_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WRAP_A_InterDigital_4.zip",
+            "source_checksum": "887e99483c24f95fb91c161c2ad0b817",
+            "input_file": "WRAP_A_InterDigital_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WRAP_B_InterDigital_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WRAP_B_InterDigital_4.zip",
+            "source_checksum": "9784fe29832456f186681904422a28b2",
+            "input_file": "WRAP_B_InterDigital_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WRAP_C_InterDigital_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WRAP_C_InterDigital_4.zip",
+            "source_checksum": "9584c5bcaf9698e73bad2186beedac3d",
+            "input_file": "WRAP_C_InterDigital_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        },
+        {
+            "name": "WRAP_D_InterDigital_4",
+            "source": "https://www.itu.int/wftp3/av-arch/jvet-site/bitstream_exchange/VVC/draft_conformance/draft6/WRAP_D_InterDigital_4.zip",
+            "source_checksum": "b448e9886fc744eacc5f75eb64360ff2",
+            "input_file": "WRAP_D_InterDigital_4.bit",
+            "output_format": "yuv420p",
+            "result": ""
+        }
+    ]
+}
