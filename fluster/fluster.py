@@ -43,7 +43,7 @@ class Context:
                  test_vectors: list = None, failfast: bool = False, quiet: bool = False,
                  reference: bool = False, summary: bool = False, keep_files: bool = False,
                  threshold: int = None, time_threshold: int = None, verbose: bool = False,
-                 summary_output: str = None):
+                 summary_output: str = None, split_frames: bool = False):
         self.jobs = jobs
         self.timeout = timeout
         self.test_suites = test_suites
@@ -58,6 +58,7 @@ class Context:
         self.time_threshold = time_threshold
         self.verbose = verbose
         self.summary_output = summary_output
+        self.split_frames = split_frames
 
     def to_test_suite_context(self, decoder, results_dir, test_vectors):
         '''Create a TestSuite's Context from this'''

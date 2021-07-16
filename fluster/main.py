@@ -125,7 +125,11 @@ class Main:
             'exit code is 0 otherwise', type=float)
         subparser.add_argument(
             '-v', '--verbose', help='show stdout and stderr of commands executed', action='store_true')
+        subparser.add_argument(
+            '--split-frames', help='splits the raw video file into separated frames before running the test',
+            action='store_true')
         subparser.set_defaults(func=self._run_cmd)
+
 
     def _add_reference_cmd(self, subparsers):
         subparser = subparsers.add_parser(
@@ -179,6 +183,7 @@ class Main:
                           time_threshold=args.time_threshold,
                           verbose=args.verbose,
                           summary_output=args.summary_output
+                          split_frames=args.split_frames
                           )
         try:
             fluster.run_test_suites(context)

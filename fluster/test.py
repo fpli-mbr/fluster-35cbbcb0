@@ -31,7 +31,7 @@ class Test(unittest.TestCase):
     # pylint: disable=too-many-instance-attributes
 
     def __init__(self, decoder: Decoder, test_suite, test_vector: TestVector, results_dir: str,
-                 reference: bool, timeout: int, keep_files: bool, verbose: bool):
+                 reference: bool, timeout: int, keep_files: bool, verbose: bool, by_frame: bool):
         self.decoder = decoder
         self.test_suite = test_suite
         self.test_vector = test_vector
@@ -41,8 +41,21 @@ class Test(unittest.TestCase):
         self.timeout = timeout
         self.keep_files = keep_files
         self.verbose = verbose
+        self.by_frame = by_frame
+
         setattr(self, test_vector.name, self._test)
         super().__init__(test_vector.name)
+
+    def _extract_raw_frame(self, frame_number: int, input_filepath: str, output_filepath: str) -> bool:
+        cmd_tmpl = ("ffmpeg -y -pix_fmt {pix_fmt} -s {width}x{height} -i {raw_video_filepath}" +
+                    "-vf select='eq(n\,{frame_number}\)' {output_filepath}")
+        cmd = cmd_tmpl.format(pix_fmt=self.test_vector.output_format,
+                              width=self.test_vector.width,
+                              height=self.test_vector.height,
+                              raw_video_filepath=self.test_vector.raw_video_filepath,
+                              output_filepath=output_filepath)
+
+        subprocess.check_output(command, stderr=subprocess.DEVNULL)
 
     def _test(self):
         output_filepath = os.path.join(
@@ -52,14 +65,35 @@ class Test(unittest.TestCase):
         output_filepath = normalize_path(output_filepath)
         input_filepath = normalize_path(input_filepath)
 
+        by_frame_results = []
         try:
-            result = self.decoder.decode(
-                input_filepath, output_filepath, self.test_vector.output_format, self.timeout, self.verbose)
+            decode_args = (input_filepath, output_filepath, self.test_vector.output_format, self.timeout, self.verbose)
+            if not by_frame:
+                result = self.decoder.decode(*decode_args)
+            else:
+                last_frame = self._get_last_frame_number()
+                for cur_frame in range(last_frame):
+                    # TODO: Unhardcode this.
+                    output_filepath = "/tmp/frame-%05d.raw"
+                    # TODO: Use beautiful message.
+                    if (not os.path.exists(output_filepath) and
+                            not self._extract_raw_frame(cur_frame, input_filepath, output_filepath)):
+                        raise
+
+                    result = self.decode_frame(frame_number, *decode_args)
+                    by_frame_results.append(result)
+
         except TimeoutExpired:
-            self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.TIMEOUT
+            if not by_frame:
+                self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.TIMEOUT
+            else:
+                self.test_suite.test_vectors[self.test_vector.name].test_result_by_frame.append(TestVectorResult.TIMEOUT)
             raise
         except Exception:
-            self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.ERROR
+            if not by_frame:
+                self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.ERROR
+            else:
+                self.test_suite.test_vectors[self.test_vector.name].test_result_by_frame.append(TestVectorResult.ERROR)
             raise
 
         if not self.keep_files and os.path.exists(output_filepath) and \
@@ -67,10 +101,28 @@ class Test(unittest.TestCase):
             os.remove(output_filepath)
 
         if not self.reference:
-            self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.FAILURE
-            if self.test_vector.result.lower() == result.lower():
-                self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.SUCCESS
-            self.assertEqual(self.test_vector.result.lower(), result.lower(),
-                             self.test_vector.name)
+            if not by_frame:
+                self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.FAILURE
+                if self.test_vector.result.lower() == result.lower():
+                    self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.SUCCESS
+
+                results = [result] if not by_frame else by_frame_results
+                for result in results:
+                    self.assertEqual(self.test_vector.result.lower(), result.lower(),
+                                     self.test_vector.name)
+            else:
+                for cur_frame, result in enumerate(by_frame_results):
+                    self.test_suite.test_vectors[self.test_vector.name].test_result_by_frame[cur_frame] =\
+                        TestVectorResult.FAILURE
+
+                    # Compare hash of extracted frame here.
+                    if self.test_vector.result.lower() == result.lower():
+                        self.test_suite.test_vectors[self.test_vector.name].test_result = TestVectorResult.SUCCESS
+
+
         else:
             self.test_suite.test_vectors[self.test_vector.name].result = result
+
+    def _get_last_frame_number(self):
+        # TODO: Unhardcode this and implement counting total frames on raw video bistream (like YUV video).
+        return 3

@@ -41,7 +41,7 @@ class DownloadWork:
                  test_suite_name: str, test_vector: TestVector):
         self.out_dir = out_dir
         self.verify = verify
-        self.extract_all = extract_all
+        self.extract_all = True
         self.keep_file = keep_file
         self.test_suite_name = test_suite_name
         self.test_vector = test_vector

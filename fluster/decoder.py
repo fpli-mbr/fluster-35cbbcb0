@@ -34,6 +34,7 @@ class Decoder(ABC):
     hw_acceleration = False
     description = None
     binary = None
+    on_decoded_frame = None
 
     def __init__(self):
         if self.binary:
@@ -43,6 +44,11 @@ class Decoder(ABC):
     def decode(self, input_filepath: str, output_filepath: str, output_format: PixelFormat, timeout: int,
                verbose: bool) -> str:
         '''Decodes input_filepath in output_filepath'''
+        raise Exception('Not implemented')
+
+    @abstractmethod
+    def decode_frame(self, frame_number: int, input_filepath: str, output_filepath: str, output_format: PixelFormat,
+                     timeout: int, verbose: bool)) -> str:
         raise Exception('Not implemented')
 
     @lru_cache(maxsize=None)

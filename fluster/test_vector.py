@@ -46,6 +46,7 @@ class TestVector:
 
         # Not included in JSON
         self.test_result = TestVectorResult.NOT_RUN
+        self.test_result_by_frame = []
         self.errors = []
 
     @classmethod
