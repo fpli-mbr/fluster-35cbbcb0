@@ -27,6 +27,8 @@ import sys
 import urllib.request
 import multiprocessing
 
+from gi.repository import GLib
+from gi.repository import Gst
 # pylint: disable=wrong-import-position
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from fluster import utils
@@ -42,6 +44,51 @@ BITSTREAM_EXTS = ('.bin', '.bit', '.264', '.h264',
 MD5_EXTS = ('yuv.md5', '.md5', 'md5.txt')
 MD5_EXCLUDES = ('.bin.md5', 'bit.md5')
 RAW_EXTS = ('nogray.yuv', '.yuv', '.qcif')
+
+
+def get_codec_extra_data(input_file: str, parse_elem: str) -> Gst.Structure:
+    '''Extracts extra data (metadata) from a bitstream'''
+    # Ideally, GstDiscoverer should be used. However, it fails with
+    # the following message: "No valid frames decoded before end of stream" for
+    # FM2_SVA_C.264 test vector bitstream source.
+    ctx = {"ret": None}
+
+    def _bus_message_cb(bus, message, ctx):
+        if message.type == Gst.MessageType.STATE_CHANGED:
+            if (message.src.get_name() != "parser" and
+                    message.get_structure().get_value("new-state") != Gst.State.PLAYING):
+                return
+
+            # For some reason (for CVPCMNL2_SVA_C.264), the pad may be None in the
+            # first GST_STATE_PLAYING reception, but defined in the second one.
+            if not (pad := Gst.Element.get_static_pad(message.src, "src")):
+                return
+            if not (caps := pad.get_current_caps()):
+                return
+
+            if caps.get_size() == 1:
+                ctx["ret"] = caps.get_structure(0)
+
+        # If for some reason, ret value is never set, stop the loop on EOS.
+        if ctx.get("ret") or message.type == Gst.MessageType.EOS:
+            pipeline.set_state(Gst.State.NULL)
+            loop.quit()
+
+    spipeline_tpl = "filesrc location={} ! typefind ! {} name=parser ! fakesink"
+    spipeline = spipeline_tpl.format(input_file, parse_elem)
+    pipeline = Gst.parse_launch(spipeline)
+
+    bus = pipeline.get_bus()
+    bus.add_signal_watch()
+    bus.connect("message", _bus_message_cb, ctx)
+
+    pipeline.set_state(Gst.State.PLAYING)
+
+    loop = GLib.MainLoop()
+    loop.run()
+    pipeline = None
+
+    return ctx.get("ret")
 
 
 class HREFParser(HTMLParser):
@@ -120,9 +167,21 @@ class JCTVTGenerator:
                 self._fill_checksum_h265(test_vector, dest_dir)
             elif self.codec == Codec.H264:
                 self._fill_checksum_h264(test_vector, dest_dir)
+            self._fill_codec_extra_data(test_vector, dest_dir)
 
         test_suite.to_json_file(output_filepath)
         print('Generate new test suite: ' + test_suite.name + '.json')
+
+    def _fill_codec_extra_data(self, test_vector, dest_dir):
+        parse_elem = "{}parse".format(self.codec.name.lower())
+        input_file = os.path.join(dest_dir, test_vector.input_file)
+        codec_data = get_codec_extra_data(input_file, parse_elem)
+        if codec_data:
+            test_vector.width = codec_data.get_value("width")
+            test_vector.height = codec_data.get_value("height")
+        else:
+            print('Cannot fill extra data for {}'.format(input_file),
+                  file=sys.stderr)
 
     def _fill_checksum_h264(self, test_vector, dest_dir):
         raw_file = self._find_by_ext(dest_dir, RAW_EXTS)
@@ -173,6 +232,8 @@ class JCTVTGenerator:
 
 
 if __name__ == '__main__':
+    Gst.init(None)
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--skip-download', help='skip extracting tarball',
                         action='store_true', default=False)
