@@ -21,8 +21,13 @@ jobs:
         python-version: 3.6
     - name: Install dependencies
       run: |
+        sudo run apt-get update
+        sudo run apt-get upgrade
         make install_deps
         sudo apt install gstreamer1.0-tools gstreamer1.0-libav gstreamer1.0-plugins-bad ffmpeg vpx-tools
+    - name: Unit test
+      run: |
+        make unit-test
     - name: Check
       run: |
         make check
@@ -39,6 +44,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install_deps
+    - name: Unit test
+      run: |
+        make unit-test
     - name: Check
       run: |
         make check
