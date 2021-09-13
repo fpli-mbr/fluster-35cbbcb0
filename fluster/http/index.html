@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JVT AVC version 1</title>
+</head>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <h1>Vector JVT-AVC_V1 test suite</h1>
+    <p><span id="header"></span></p>
+    <canvas></canvas>
+    <p><span id="summary_test"></span></p>
+    <p><span id="error_test"></span></p>
+</body>
+<script src="./mp4box.all.min.js"></script>
+<script type="module">
+    import { runTestForFile } from "./decoder.js";
+    runTestForFile(document.querySelector("canvas"));
+</script>
+
+</html>

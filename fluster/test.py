@@ -97,15 +97,24 @@ class Test(unittest.TestCase):
             self.test_suite.test_vectors[
                 self.test_vector.name
             ].test_result = TestVectorResult.FAIL
-            if self.test_vector.result.lower() == result.lower():
+            test_vector_result = self.test_vector.result.lower()
+            if test_vector_result == result.lower() or result == "True":
                 self.test_suite.test_vectors[
                     self.test_vector.name
                 ].test_result = TestVectorResult.SUCCESS
-            self.assertEqual(
-                self.test_vector.result.lower(),
-                result.lower(),
-                self.test_vector.name,
-            )
+
+            if result == "True":
+                self.assertEqual(
+                    self.test_vector.result.lower(),
+                    test_vector_result.lower(),
+                    self.test_vector.name,
+                )
+            else:
+                self.assertEqual(
+                    self.test_vector.result.lower(),
+                    result.lower(),
+                    self.test_vector.name,
+                )
         else:
             self.test_suite.test_vectors[
                 self.test_vector.name
