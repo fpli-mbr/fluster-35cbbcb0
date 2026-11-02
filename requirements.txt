@@ -1,4 +1,4 @@
 black
-pylint==2.8.2
+pylint==4.0.9
 flake8
 mypy
